@@ -8,38 +8,40 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="426dp"
+        android:layout_height="511dp"
         android:contentDescription="@string/background"
         android:scaleType="centerCrop"
         android:src="@drawable/background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="-42dp" />
+
 
     <EditText
-        android:id="@+id/editText"
-        android:layout_width="355dp"
+        android:id="@+id/editText3"
+        android:layout_width="252dp"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/enter_a_city"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="1"
         android:inputType="textPersonName"
-        android:textColor="@android:color/background_dark"
-        android:textSize="30sp"
-        android:textStyle="bold"
+        android:text="Name"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="291dp"
-        android:text="@string/button"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="44dp"
+        android:text="Check the weather"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        app:layout_constraintVertical_bias="0.0" />
 </android.support.constraint.ConstraintLayout>
